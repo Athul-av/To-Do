@@ -64,10 +64,10 @@ class HomeScreen extends StatelessWidget {
                         children:
                       [
                          Container(
-                          height: 26,
+                          height: 25,
                           width: 210,
                          
-                          child: Text(value.notelist[index],style:const TextStyle(fontFamily:'UbuntuCondensed',fontSize: 21,overflow: TextOverflow.ellipsis ),)),
+                          child: Text(value.notelist[index],style:const TextStyle(fontFamily:'UbuntuCondensed',fontSize: 20,overflow: TextOverflow.ellipsis ),)),
                          IconButton(onPressed: (){
                           showAlertDialog(context,index); 
                           
